@@ -1,0 +1,36 @@
+.header-area {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+
+    .text-normal {
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 400;
+        color: rgba(79, 75, 72, 1);
+
+        a {
+            color: rgba(97, 184, 116, 1);
+            text-decoration: none;
+            font-weight: 700;
+        }
+    }
+}
+
+// menu space
+
+@media (max-width:576px) {
+    .header-area {
+        padding: 15px 30px;
+        img{
+            width: 120px;
+        }
+    }
+
+    .text-normal {
+        margin-top: 10px;
+    }
+
+}
